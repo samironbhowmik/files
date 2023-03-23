@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700;800;900&family=Open+Sans&family=Poppins:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <!-- main box -->
+        <div class="box">
+            <!-- header -->
+            <div class="header">
+                <h1>Payment</h1>
+                <p>Complete your pro membership</p>
+            </div>
+            <!-- header -->
+
+            <!-- mid -->
+            <div class="mid">
+                <div class="price">
+                    <h1>$899</h1>
+                    <p>USD</p>
+                </div>
+                <hr>
+
+                <div class="pointer">
+                    <div class="sections">
+                        <div class="sec1">
+                            <section>
+                                <img src="./image/checked.png" alt="">
+                                <span>Messaging</span>
+                            </section>
+
+                            <section>
+                                <img src="./image/checked.png" alt="">
+                                <span>Analytics</span>
+                            </section>
+                        </div>
+                        <div class="sec2">
+                            <section>
+                                <img src="./image/checked.png" alt="">
+                                <span>Support</span>
+                            </section>
+
+                            <section>
+                                <img src="./image/checked.png" alt="">
+                                <span>Discounts</span>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+
+                <h4 style="color: blue;">know more</h4>
+            </div>
+            <!-- mid -->
+
+            <!-- bottom -->
+            <div class="bottom">
+                <h3>Pay with card</h3>
+                <input type="text" class="card-no">
+
+                <div class="card-input">
+                    <input type="text" placeholder="mm/yy" class="card-expiry">
+                    <input type="password" placeholder="CVV" class="card-cvv">
+                </div>
+
+                <div class="btn">
+                    <button id="sumbit">Make Payment</button>
+                </div>
+            </div>
+            <!-- bottom -->
+
+        </div>
+        <!-- main box -->
+
+        <!-- remove popup -->
+        <div class="popup1">
+            <div class="remove">
+                <h1>Remove?</h1>
+                <p>Please confirm the changes,you can't redo this again.</p>
+            </div>
+            <div class="btn">
+                <button id="confirm" style="background-color: rgb(192, 51, 51);">Confirm</button>
+            </div>
+            <h5>Take me back</h5>
+        </div>
+        <!-- remove popup -->
+
+        <!-- success message -->
+        <div class="success">
+            <img src="./image/check-mark.png" alt="">
+            <h1>Success</h1>
+            <p>Your payment was processed</p>
+        </div>
+        <!-- success message -->
+
+        <!-- invoice -->
+        <div class="invoice">
+            <div class="head1">
+                <h2>Invoice</h2>
+                <h4 style="color: blue;">Download</h4>
+            </div>
+            <div class="head2">
+                <section class="sc">
+                    <h2 class="utility">Pro membership</h2>
+                    <h2>$899</h2>
+                </section>
+                <hr>
+                <section class="sc">
+                    <h2 class="utility">Platform fee</h2>
+                    <h2>$10</h2>
+                </section>
+            </div>
+            <div class="head3">
+                <h2>Total amount</h2>
+                <h1>$909</h1>
+            </div>
+        </div>
+        <!-- invoice -->
+    </div>
+</body>
+<script src="./js/index.js"></script>
+</html>

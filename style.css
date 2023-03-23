@@ -1,0 +1,268 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: rgb(231, 231, 231); */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.box{
+    background-color: #fff;
+    /* height: 72%; */
+    width: 20%;
+    margin: 30px;
+    border-radius: 30px ;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    position: relative;
+}
+
+.header{
+    /* margin-top: 50px; */
+    padding: 40px ;
+    /* background-color: bisque; */
+}
+
+.header h1{
+    margin-bottom: 10px;
+}
+.header p{
+    font-weight: 600;
+    color: gray;
+}
+
+.mid{
+    /* margin-top: 40px; */
+    padding: 40px;
+    background-color: rgb(245, 245, 245);
+}
+
+.mid h1{
+    font-size: 50px;
+}
+.mid p{
+    margin-bottom: 8px;
+    font-size: 26px;
+    font-weight: 600;
+    color: gray;
+}
+hr{
+    border: 1px solid gray;
+    opacity: 0.5;
+    margin-top: 14px;
+}
+.price{
+    display: flex;
+    align-items: flex-end;
+}
+
+.bottom{
+    /* margin-top: 40px; */
+    padding: 40px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.bottom h3{
+    margin-bottom: 20px;
+}
+
+.card-input{
+    margin-top: 10px;
+}
+
+.btn{
+    margin-top: 20px;
+    text-align: center;
+}
+.box .pointer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box .pointer .sections .sec1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.sec2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+/* span{
+    font-family: 'Poppins', sans-serif;
+
+} */
+.card-no{
+    /* width: 80%; */
+    padding: 18px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+}
+
+.card-no:hover{
+    box-shadow: 0 0 12px gray; 
+}
+
+.card-input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.card-expiry{
+    padding: 20px;
+    border-radius: 10px;
+    width: 34%;
+    border: none;
+    background-color: rgb(241, 241, 241);
+    font-weight: 600;
+}
+.card-cvv{
+    padding: 20px;
+    border-radius: 10px;
+    width: 34%;
+    border: none;
+    background-color: rgb(241, 241, 241);
+    font-weight: 600;
+}
+
+.card-expiry:hover{
+    box-shadow: 0 0 8px gray; 
+    background-color: #fff;
+}
+.card-cvv:hover{
+    box-shadow: 0 0 8px gray; 
+    background-color: #fff;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn button{
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(56, 56, 253);
+    color: #fff;
+    font-size: large;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* .btn button:hover{
+    background-color: blue;
+    box-shadow: 0 0 8px gray; 
+} */
+
+.popup1{
+    background-color: #fff;
+    height: 22%;
+    width: 10%;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 30px ;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    opacity: 0;
+}
+.popup1 h1{
+    margin-bottom: 16px;
+}
+h5{
+    margin-top: 16px;
+    text-align: center;
+    color: blue;
+}
+
+.success{
+    /* position: absolute;
+    right: 54px; */
+    background-color: rgb(57,141,116);
+    color: #fff;
+    height: 22%;
+    width: 10%;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 30px ;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+}
+
+.success img{
+    background-color: #fff;
+    padding: 14px;
+    border-radius: 50%;
+    /* margin-top: 30px; */
+}
+.success h1{
+    margin: 10px;
+}
+.success p{
+    text-align: center;
+}
+
+.invoice{
+    background-color: #fff;
+    /* height: 36%; */
+    width: 24%;
+    margin: 30px;
+    border-radius: 30px ;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    opacity: 0;
+}
+
+.invoice .head1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+
+}
+.head2{
+    background-color: rgb(245, 245, 245);
+}
+.head2 .sc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.head2 hr{
+    margin: 0px 28px;
+}
+
+.invoice .head3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.invoice .head3 h2{
+    font-weight: 500;
+}
+.utility{
+    color: gray;
+    font-weight: 400;
+}
