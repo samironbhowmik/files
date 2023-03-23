@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img{
+    overflow: hidden;
+    object-fit: cover;
+    height: 700px;
+}
+
+h1{
+    margin-top: 20px;
+    margin-bottom: 4px;
+    color: rgb(0, 0, 36);
+}
+
+.carousel{
+    padding-top: 20px;
+}
+
+.carousel .slider-wrapper{
+    width: 80%;
+}
+.carousel .thumb{
+    height: 80px;
+}
